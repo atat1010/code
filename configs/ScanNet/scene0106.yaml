@@ -1,0 +1,13 @@
+inherit_from: configs/ScanNet/scannet.yaml
+mapping:
+  bound: [[-1.1,9.8],[-1.0,10.0],[-1.0,4.3]]
+  marching_cubes_bound: [[-1.1,9.8],[-1.0,10.0],[-1.0,4.3]]
+  max_drift: 3 #just for test
+data:
+  input_folder: /data0/dataset/ScanNet/scans/scene0106_00
+  output: output/scannet/scans/scene0106_00_smooth_max4
+
+source_path: "data/ScanNet/scene0106_00"
+save_path: "output/ScanNet/scene0106_00"
+
+orb_settings_path: "configs/orb_config/scene0106.yaml"
