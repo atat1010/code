@@ -1,0 +1,6 @@
+[submodule "thirdParty/thirdParty/ORB-SLAM2-PYBIND"]
+	path = thirdParty/thirdParty/ORB-SLAM2-PYBIND
+	url = https://github.com/CJAPPLE5/RTG-SLAM-BACKEND.git
+[submodule "thirdParty/thirdParty/pybind"]
+	path = thirdParty/thirdParty/pybind
+	url = https://github.com/CJAPPLE5/RTG-SLAM-PYBIND.git
