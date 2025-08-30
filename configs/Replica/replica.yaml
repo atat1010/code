@@ -24,9 +24,9 @@ mapping:
   fs_weight: 20
   sample: 2048
   min_pixels_cur: 100
-  every_frame: 3
-  pixels: 4000
-  edge_sample: 0
+  every_frame: 4
+  pixels: 2000
+  edge_sample: 2000
   iters: 15
   lr_embed: 0.01
   lr_decoder: 0.01
