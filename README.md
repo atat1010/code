@@ -1,2 +1,4 @@
 PMET-SLAM
-<video src="demo.mp4" controls="controls" width="600"></video>
+## 演示视频
+[点击这里查看演示视频](demo.mp4)
+
