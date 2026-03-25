@@ -1257,14 +1257,14 @@ class Mapper(object):
             cfg (dict): parsed config dict.
         """
         self.coarse_planes_res = cfg['planes_res']['coarse']
-        # self.middle_planes_res = cfg['planes_res']['middle']
+        self.middle_planes_res = cfg['planes_res']['middle']
         self.fine_planes_res = cfg['planes_res']['fine']
-        # self.ultra_fine_planes_res = cfg['planes_res']['ultra_fine']
+        self.ultra_fine_planes_res = cfg['planes_res']['ultra_fine']
 
         self.coarse_c_planes_res = cfg['c_planes_res']['coarse']
-        # self.middle_c_planes_res = cfg['c_planes_res']['middle']
+        self.middle_c_planes_res = cfg['c_planes_res']['middle']
         self.fine_c_planes_res = cfg['c_planes_res']['fine']
-        # self.ultra_fine_c_planes_res = cfg['c_planes_res']['ultra_fine']
+        self.ultra_fine_c_planes_res = cfg['c_planes_res']['ultra_fine']
 
         c_dim = cfg['model']['c_dim']
         xyz_len = self.bound[:, 1] - self.bound[:, 0]
